@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-icons.css" />
+    <link rel="stylesheet" href="stylesheets/css2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Section Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-xl py-3 position-sticky top-0 z-1">
+        <div class="container-fluid">
+            <a id="navbar-brand" class="navbar-brand ms-3 navbar-logo-css" href="#"><img height="35px"
+                    src="Images/SuperSide-Logo-White.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon justify-content-center d-flex align-items-center">
+                    <i id="toggler-icon" class="fa-solid fa-bars toggler-icon-css"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse transition-collapse-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-xl-flex">
+                    <li class="nav-item d-none d-xl-block dropdown">
+                        <a class="nav-link me-3 fw-bold font-nav-link nav-link-scroll dropdown-toggle" href="#"
+                            role="button" data-toggle="dropdown" aria-expanded="false">
+                            Services
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link me-3 fw-bold font-nav-link nav-link-scroll" aria-current="page" href="#">Our
+                            Work</a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link me-3 fw-bold font-nav-link nav-link-scroll" href="#">Our People</a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link me-3 fw-bold font-nav-link nav-link-scroll" href="#">CaaS</a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link me-3 fw-bold font-nav-link nav-link-scroll" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block dropdown">
+                        <a class="nav-link me-3 fw-bold font-nav-link nav-link-scroll dropdown-toggle" href="#"
+                            role="button" data-toggle="dropdown" aria-expanded="false">
+                            Resources
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-xl-none nav-link-css">
+                    <li class="nav-item ms-3 mt-4 d-xl-none dropdown">
+                        <a class="nav-link me-3 nav-link-css d-flex justify-content-between fw-bold font-nav-link-mobile dropdown-toggle"
+                            href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Services
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        <div class="border"></div>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none">
+                        <a class="nav-link me-3 nav-link-css fw-bold font-nav-link-mobile" aria-current="page"
+                            href="#">Our
+                            Work</a>
+                        <div class="border"></div>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none">
+                        <a class="nav-link me-3 nav-link-css fw-bold font-nav-link-mobile" href="#">Our People</a>
+                        <div class="border"></div>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none">
+                        <a class="nav-link me-3 nav-link-css fw-bold font-nav-link-mobile" href="#">CaaS</a>
+                        <div class="border"></div>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none">
+                        <a class="nav-link me-3 nav-link-css fw-bold font-nav-link-mobile" href="#">Pricing</a>
+                        <div class="border"></div>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none dropdown">
+                        <a class="nav-link me-3 nav-link-css d-flex justify-content-between fw-bold font-nav-link-mobile dropdown-toggle"
+                            href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Resources
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="border"></div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none">
+                        <a class="nav-link me-3 nav-link-css fw-bold font-nav-link-mobile" href="#">Book a demo</a>
+                        <div class="border"></div>
+                    </li>
+                    <li class="nav-item ms-3 d-xl-none">
+                        <a class="nav-link me-3 nav-link-css fw-bold font-nav-link-mobile" href="#">Sign in</a>
+                    </li>
+                </ul>
+                <div class="d-none d-xl-block">
+                    <button id="book-btn" class="book-btn-css me-2 rounded-2">Book a demo</button>
+                    <button id="sign-btn" class="sign-btn-css rounded-2">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Section hero -->
+
+    <section class="container-fluid hero-image">
+        <div class="container-xl hero-content">
+            <div>
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-white hero-title-css mt-3 mt-md-5  pt-md-5 text-center">
+                        The better way to get design done
+                    </h1>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="text-white hero-paragraph-css mt-3 text-center">
+                        Everything you need to unbottleneck design, reduce costs and move quickly with the best creative
+                        talent.
+                    </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="hero-btn-css mt-3 rounded-2">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Slider Section -->
+    <section class="container-xl mb-5">
+        <div>
+            <div class="d-flex justify-content-center">
+                <p class="text-white text-center slider-text-css mt-5 mt-md-0 fw-bold">
+                    84,298 PIXEL-PERFECT PROJECTS DELIVERED TO 450+ HAPPY CUSTOMERS
+                </p>
+            </div>
+            <div class="mt-5">
+                <div class="row">
+                    <div class="col-4 col-md-2 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/33ce19bf299db82aecb60c4cbfef4955aef529bd-1121x386.png?w=128&q=75&fit=clip&auto=format"
+                                alt="reddit">
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/3d45d7798d05636c5bdf2d40f32ff523c0c216b4-2456x417.png"
+                                alt="booking">
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/54556506eb6022da76d586d064e62169d053da2c-2532x417.png"
+                                alt="coinbase">
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/161c3004d2f22ac90fcf2d6fe4533ca74f21e45f-1222x438.png?w=96&q=75&fit=clip&auto=format"
+                                alt="figma">
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/ed1d474a587bf18a87e59c42d77f05eec1a62145-1816x675.png?w=96&q=75&fit=clip&auto=format"
+                                alt="Kellogs">
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/938390cd5b94f3ac4c1826cf3862628fea2a545d-2548x426.png?w=256&q=75&fit=clip&auto=format"
+                                alt="Novartis">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="mt-5">
+                <div class="row">
+                    <div class="col-2 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/fdc4efad69e041a0d124e6b948fac58917bf9594-2420x658.png?w=128&q=75&fit=clip&auto=format"
+                                alt="Zapier">
+                        </div>
+                    </div>
+                    <div class="col-2 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/8a84df2c427c1cc928e59427a4518e4b6966b136-647x751.svg?w=64&q=75&fit=clip&auto=format"
+                                alt="Epic Games">
+                        </div>
+                    </div>
+                    <div class="col-2 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/500c51a1de4c15ca79f1da5e3faf026af0a50865-272x92.svg?w=128&q=75&fit=clip&auto=format"
+                                alt="Google">
+                        </div>
+                    </div>
+                    <div class="col-2 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/369c8218b1fa3f3b3a675915f6f73a5037689b31-322x86.svg?w=128&q=75&fit=clip&auto=format"
+                                alt="Amazon">
+                        </div>
+                    </div>
+                    <div class="col-2 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/44435101ab1add80f647fc69adcc4c69ec4a53a7-948x191.svg?w=128&q=75&fit=clip&auto=format"
+                                alt="Meta">
+                        </div>
+                    </div>
+                    <div class="col-2 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/bde3a1f1aff2e33e00efe518e71de109717ae091-120x84.svg?w=96&q=75&fit=clip&auto=format"
+                                alt="Sales Force">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- End Slider -->
+
+    <!-- Creative partner -->
+
+    <section class="container-xl my-10">
+        <div class="mt-5">
+            <div class="row mt-5">
+                <div class="col-lg-6 col-12 mt-5 d-flex d-lg-none align-items-center">
+                    <div class="mt-5">
+                        <div>
+                            <div class="">
+                                <p class="d-flex justify-content-center">
+                                    <a href="https://www.superside.com?wvideo=xwk1z6uvwx">
+                                        <img class="img-fluid rounded-3"
+                                            src="https://embed-ssl.wistia.com/deliveries/0800acdf7621bae125c3c2710ecf188e.jpg?wistia-xwk1z6uvwx-1-xwk1z6uvwx-video-thumbnail=1&amp;image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=5cff85e0">
+                                    </a>
+                                </p>
+                                <p class="d-none">
+                                    <a href="https://www.superside.com?wvideo=xwk1z6uvwx" target="_blank">Superside:
+                                        Design At Scale For
+                                        Ambitious Brands</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mt-lg-5 mt-1 d-flex align-items-center">
+                    <div class="mt-lg-5 mt-1">
+                        <div>
+                            <h1 class="partner-title-css">
+                                Say hello to your new <span style="color: rgb(126 152 253);">creative partner!</span>
+                            </h1>
+                            <p class="partner-paragraph-css mt-3">Superside is the
+                                <strong> creative subscription service </strong>
+                                used by the world’s top brands to get quality design done faster, more reliably and at
+                                scale.
+                                <br>
+                                <br>
+                                Easily access a global team of
+                                <strong>creative strategists and designers</strong>
+                                without the frustration of working with slow-moving and expensive agencies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mt-5 d-none d-lg-flex align-items-center">
+                    <div class="mt-5">
+                        <div>
+                            <div class="">
+                                <p class="d-flex justify-content-center">
+                                    <a href="https://www.superside.com?wvideo=xwk1z6uvwx">
+                                        <img class="img-fluid rounded-3"
+                                            src="https://embed-ssl.wistia.com/deliveries/0800acdf7621bae125c3c2710ecf188e.jpg?wistia-xwk1z6uvwx-1-xwk1z6uvwx-video-thumbnail=1&amp;image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=5cff85e0">
+                                    </a>
+                                </p>
+                                <p class="d-none">
+                                    <a href="https://www.superside.com?wvideo=xwk1z6uvwx" target="_blank">Superside:
+                                        Design At Scale For
+                                        Ambitious Brands</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Creative partner -->
+
+
+    <!-- Section Cards -->
+
+    <section class="container-xl my-10">
+        <div class="my-5">
+            <div class="row my-5">
+                <div class="col-12 col-sm-6 col-md-4 d-flex align-content-between mt-4 pt-4">
+                    <div class="d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/de128aec1b4d60ebbd349b911062096d4e8d2082-262x149.svg?w=600&auto=format"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="cards-title mt-0">Top 1% of global creative talent</h4>
+                            <p class="cards-paragraph-css mt-2">
+                                We're not restricted by borders. Top-tier talent from diverse backgrounds equals
+                                <span class="cards-paragraph-span-css">consistently high-quality work for your
+                                    brand</span>.
+                            </p>
+                        </div>
+                        <div class="card-border rounded-pill mt-5"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-flex align-content-between mt-4 pt-4">
+                    <div class="d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/7c6469a57a7e50fbb197f69138917a12fa0c52b4-262x146.svg?w=600&auto=format"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="cards-title mt-4">Ultra-fast turnaround times
+                            </h4>
+                            <p class="cards-paragraph-css mt-2">
+                                With dedicated project managers, collaborative online tools and expert use of AI,
+                                projects can be completed in
+                                <span class="cards-paragraph-span-css">as little as 48, 24, or even 12 hours</span>.
+                            </p>
+                        </div>
+                        <div class="card-border rounded-pill mt-5"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-flex align-content-between mt-4 pt-4">
+                    <div class="d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="img-fluid"
+                                src="https://cdn.sanity.io/images/k0dlbavy/production/3640e33583c79268cdc54ed8f9f4722542e12634-262x146.svg?w=600&auto=format"
+                                alt="">
+                        </div>
+                        <div>
+                            <h4 class="cards-title mt-4">Flexible subscription model</h4>
+                            <p class="cards-paragraph-css mt-2">
+                                Choose your perfect plan and use your hours across a broad range of services. Make the
+                                most of every dollar, including
+                                <span class="cards-paragraph-span-css">rolling over unused hours to the next
+                                    month</span>!
+                            </p>
+                        </div>
+                        <div class="card-border rounded-pill mt-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Cards -->
+
+    <!-- Numbers Section -->
+
+    <section class="container-xl my-10">
+        <div>
+            <div class="d-flex justify-content-between mt-5 pt-5">
+                <h1 class="numbers-title">
+                    The <span class="numbers-span-title">numbers don't lie</span>
+                </h1>
+                <button class="numbers-btn rounded-2">See it yourself</button>
+            </div>
+            <div class="mt-5">
+                <div class="row justify-content-between">
+                    <div class="col-sm-8 col-md-6 h-100 mb-4">
+                        <div class="numbers-col-1-image rounded-3 h-100">
+                            <div class="numbers-col-1-content p-4 py-xl-5 rounded-3">
+                                <h3 class="text-white fw-bold numbers-col-1-title mb-md-2 mb-lg-4 mb-xl-1">Need Speed?
+                                </h3>
+                                <p class="text-white numbers-col-paragraph mb-lg-1 mb-xl-2">Boost
+                                    <strong>capacity and production</strong>
+                                    like Bolt, who achieved a 600% increase in output. They accessed our end-to-end
+                                    animation process, producing a
+                                    stellar brand video in record time.
+                                </p>
+                                <a href="" class="numbers-col-1-link"><span class="numbers-col-1-span"> Bolt</span>
+                                    story <i class="fa-solid fa-chevron-right numbers-col-1-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3 mb-4 mb-sm-0">
+                        <div class="numbers-col-2-css p-4 rounded-3">
+                            <p class="numbers-col-2-span text-white mb-0 mb-xl-3">COST-EFFECTIVE</p>
+                            <h2 class="numbers-col-2-heading text-white">$250K</h2>
+                            <p class="text-white numbers-col-paragraph mb-1 mb-xl-2">estimate savings on creative
+                                production</p>
+                            <a href="" class="numbers-col-1-link mb-4">
+                                <span class="numbers-col-1-span">Imperfect Foods</span>
+                                story <i class="fa-solid fa-chevron-right numbers-col-1-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4 mb-md-0">
+                        <div class="numbers-col-2-css p-4 rounded-3">
+                            <p class="numbers-col-2-span text-white mb-0 mb-xl-3">CREATIVE THAT PERFORMS</p>
+                            <h2 class="numbers-col-2-heading text-white">65%</h2>
+                            <p class="text-white numbers-col-paragraph mb-md-4 mb-lg-1 mb-xl-2">increase in CTR for
+                                social media
+                                ads</p>
+                            <a href="" class="numbers-col-1-link mb-4">
+                                <span class="numbers-col-1-span">PointCard</span>
+                                story <i class="fa-solid fa-chevron-right numbers-col-1-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4 mb-md-0 h-100">
+                        <div class="numbers-col-2-css p-4 rounded-3">
+                            <p class="numbers-col-2-span text-white mb-0 mb-xl-3">QUICK TURNAROUNDS</p>
+                            <h2 class="numbers-col-2-heading text-white pb-lg-1 pb-xl-0">70%</h2>
+                            <p class="text-white numbers-col-paragraph mb-md-4 mb-lg-1 mb-xl-2 pb-lg-2 pb-xl-0">faster
+                                delivery of
+                                designs assets
+                            </p>
+                            <a href="" class="numbers-col-1-link mb-4">
+                                <span class="numbers-col-1-span">Salesforce</span>
+                                story <i class="fa-solid fa-chevron-right numbers-col-1-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3 mb-4 mb-sm-0">
+                        <div class="numbers-col-2-css p-4 rounded-3">
+                            <p class="numbers-col-2-span text-white mb-0 mb-xl-3">MORE FOR LESS</p>
+                            <h2 class="numbers-col-2-heading text-white">50%</h2>
+                            <p class="text-white numbers-col-paragraph mb-1 mb-xl-2">lower cost per asset across 1,000+
+                                assets</p>
+                            <a href="" class="numbers-col-1-link mb-4">
+                                <span class="numbers-col-1-span">Amazon</span>
+                                story <i class="fa-solid fa-chevron-right numbers-col-1-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 h-100">
+                        <div class="numbers-col-6-image rounded-3 h-100">
+                            <div class="numbers-col-1-content p-4 rounded-3">
+                                <h3 class="text-white fw-bold numbers-col-1-title mb-lg-2 mb-lg-4">Overwhelmed? We can
+                                    help.</h3>
+                                <p class="text-white mb-lg-2 mb-lg-4 numbers-col-paragraph py-1 py-xl-0">Your dedicated
+                                    Superside
+                                    team is here
+                                    to help you <strong>break through design
+                                        barriers</strong> and <strong>meet your deadlines.</strong></p>
+                                <a href="" class="numbers-col-1-link"><span class="numbers-col-1-span"> Chat</span>
+                                    with us <i class="fa-solid fa-chevron-right numbers-col-1-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Numbers -->
+
+    <!-- Section Hiring -->
+
+    <section class="container-xl my-10">
+        <div>
+            <div class="row justify-content-between mt-5 pt-5 mb-5">
+                <div class="col-7 col-sm-8">
+                    <h1 class="hiring-title">Hiring or traditional outsourcing? <span
+                            class="hiring-span-title">Neither.</span></h1>
+                    <p class="text-white mb-5 hiring-paragraph-font-size">Let’s face it: <strong> traditional approaches
+                            to scaling design are
+                            outdated
+                            relics of the
+                            past.</strong> You don't need an agency or freelancer, you need an extension to your
+                        in-house team.</p>
+                </div>
+                <div class="col-5 col-sm-4">
+                    <div class="d-flex justify-content-end mt-3">
+                        <button class="hiring-btn rounded-2">Book a demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-sm-12">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6 mb-4">
+                            <div>
+                                <div class="hiring-col-1-bg rounded-3 p-3 py-4">
+                                    <h2 class="hiring-col-1-title mb-4"><i class="bi bi-houses"></i> In-House Teams</h2>
+                                    <p class="text-white mb-0">Hiring additional designers to meet every capability is
+                                        <strong>
+                                            expensive</strong> and
+                                        <strong>impractical</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <div>
+                                <div class="hiring-col-1-bg rounded-3 p-3 py-4">
+                                    <h2 class="hiring-col-1-title mb-4"><i class="bi bi-buildings"></i> Creative
+                                        Agencies</h2>
+                                    <p class="text-white mb-0">Involving creative agencies can be <strong>
+                                            costly,</strong> slow and
+                                        <strong>inflexible,</strong> adding complexity and delays to project timelines.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <div>
+                                <div class="hiring-col-1-bg rounded-3 p-3 py-4">
+                                    <h2 class="hiring-col-1-title mb-4"><i class="bi bi-tv"></i> Freelancers</h2>
+                                    <p class="text-white mb-0">Working with freelancers can be unreliable and hard to
+                                        <strong> scale,</strong> resulting in inconsistent and questionable quality.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <div>
+                                <div class="hiring-col-1-bg rounded-3 p-3 py-4">
+                                    <h2 class="hiring-col-1-title mb-4"><i class="bi bi-wrench-adjustable"></i>
+                                        Self-service tools</h2>
+                                    <p class="text-white mb-0">Self-service solutions make <strong> incremental
+                                            improvements </strong>to
+                                        capacity and work mostly for simpler, repetitive tasks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 position-relative">
+                    <div class="hiring-col-bg p-4 rounded-3">
+                        <img class="position-hiring-img-1"
+                            src="https://cdn.sanity.io/images/k0dlbavy/production/722447878937b7d5e6ea11933426573fabd93f43-229x105.png?w=229&auto=format"
+                            alt="">
+                        <div>
+                            <p class="text-white hiring-p-span">
+                                THE BETTER WAY
+                            </p>
+                            <h2 class="text-white fw-bold">Superside</h2>
+                        </div>
+                        <div>
+                            <p class="text-white">
+                                Superside is an <strong> always-on, subscription-based service</strong> enabled
+                                by technology to deliver
+                                compelling creative at scale.
+                            </p>
+                            <p class="text-white">
+                                With remote, <strong> fully-managed creative talent,</strong>
+                                a unique platform for <strong> easy collaborations,</strong>
+                                plus a clear and <strong> flexible pricing model,</strong> it’s the better way to get
+                                creative done!
+                            </p>
+                        </div>
+                        <img class="position-hiring-img-2" height="100px"
+                            src="https://cdn.sanity.io/images/k0dlbavy/production/8f9de03329bb9deb4918cf3969ea97b8432742cf-208x207.png?w=208&auto=format"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Hiring -->
+
+
+    <!-- Section Team -->
+
+    <section class="container-xl my-10">
+        <div>
+            <div class="row">
+                <div class="col-md-12 col-lg-6 d-flex align-items-center">
+                    <p>
+                        <a href="https://www.superside.com?wvideo=mg1g40yris" target="_black">
+                            <img class="img-fluid rounded-3"
+                                src="https://embed-ssl.wistia.com/deliveries/ee01d61607e713e7db3ea51650ca336d.jpg?wistia-mg1g40yris-1-mg1g40yris-video-thumbnail=1&amp;wistia-mg1g40yris-2-mg1g40yris-video-thumbnail=1&amp;image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=5cff85e0">
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-6 mt-4 mt-lg-0">
+                    <div>
+                        <p class="team-paragraph-span">
+                            OUR TEAM
+                        </p>
+                        <h2 class="team-heading">
+                            The brilliant minds behind <span class="team-span-title"> your creative success</span>
+                        </h2>
+                        <div>
+                            <p class="text-white team-paragraph-font">
+                                Work with the <strong>top 1% of global creative talent, </strong>
+                                comprised of
+                                <strong>225+ elite designers</strong>, illustrators, animators and other creative
+                                maestros coming from the world's best brands and agencies.
+                                <br>
+                                <br>
+                                You’ll also have a dedicated creative project manager who’ll handle your projects from
+                                start to finish and
+                                customer success manager who’ll ensure you make the most of your subscription.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="team-btn rounded-3">Meet our people</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Team -->
+
+    <!-- Section Future -->
+
+    <section class="container-xl my-10">
+        <div class="">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 mt-5 mt-lg-0">
+                    <p class="future-paragraph-span">
+                        SEAMLESS ONLINE COLLABORATION
+                    </p>
+                    <h2 class="future-heading mb-4">
+                        Plug in to the <span class="future-span-title"> future of design</span>, today
+                    </h2>
+                    <div>
+                        <p class="text-white future-paragraph-font">
+                            Our <strong> creative management platform </strong> lets you submit projects, provide
+                            feedback and store
+                            assets. It also contains all your plan details and team conversations.
+                            <br>
+                            <br>
+                            More than software—<strong>it's the secret sauce to our speed, scale and customer friendly
+                                service.</strong>
+                            <br>
+                            <br>
+                            We also use common, industry standard design tools, and offer convenient integrations with
+                            apps like Slack and more.
+                        </p>
+                    </div>
+                    <div>
+                        <button class="future-btn rounded-3">How does it work?</button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-items-center">
+                    <p>
+                        <a target="_black" href="https://www.superside.com?wvideo=v5yfp2c7eb">
+                            <img class="img-fluid rounded-3"
+                                src="https://embed-ssl.wistia.com/deliveries/e82a9efe0c40f580eac7ac0ee293f503.jpg?wistia-v5yfp2c7eb-1-v5yfp2c7eb-video-thumbnail=1&amp;image_play_button_size=2x&amp;image_crop_resized=960x740&amp;image_play_button=1&amp;image_play_button_color=5cff85e0">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Future -->
+
+    <!-- Footer -->
+
+    <section class="container-xl my-footer p-4">
+        <div class="bg-white rounded-4">
+            <div class="p-5 position-relative">
+                <div class="p-5 footer-image-bg rounded-4 footer-position">
+                    <div class="footer-content">
+                        <p class="footer-paragraph-span">
+                            20X FASTER THEN HIRING
+                        </p>
+                        <h2 class="footer-heading mb-4">
+                            Efficient. Scalable. Reliable
+                        </h2>
+                        <div>
+                            <button class="footer-btn rounded-3">Team up with us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 mb-5 p-4">
+                <div class="mb-5">
+                    <img class="" width="200px" src="Images/Logo-SuperSide.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-2 col-md-3">
+                        <div>
+                            <div>
+                                <h5 class="fw-bold mb-4">Superside</h5>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Our Work</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Our People</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Why Us</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Services</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Pricing</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Compare</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Learn</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Blog</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">About Us</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">CaaS</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Trust Center</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Book a Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-3">
+                        <div>
+                            <div>
+                                <h5 class="fw-bold mb-4">Services</h5>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Ad Creative</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Social Media Creative</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Email Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Web Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Presentation Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Packaging & Merch Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Print Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Motion Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Illustration Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Brand Identity Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Concept Creation</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Video production</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Digital Marketing Consulting</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">AR/3D Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">AI-Enhanced Creative</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5 mt-md-0 col-lg-2 col-md-3">
+                        <div>
+                            <div>
+                                <h5 class="fw-bold mb-4">Learn</h5>
+                            </div>
+                            <div class="mb-5">
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">The Creative Brief</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Video Marketing Guide</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">High-Impact Design Teams</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">AR Marketing Guide</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Connecting Marketing & Design</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Digital Advertising Playbook</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">The Future of DesignOps</a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="footer-link-css" href="">Gather & Grow</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-7">
+                        <div>
+                            <div class="px-3">
+                                <div class="mt-5 mt-xl-0">
+                                    <h4 class="fw-bold footer-newsletter-title-css">See Superside in action</h4>
+                                </div>
+                                <div class="my-4">
+                                    <p class="footer-newsletter-paragraph-css">
+                                        Get a demo and discover how 450+ ambitious companies and 2,500 energized fans
+                                        use
+                                        Superside to free themselves from the shackles of limited budgets, broken
+                                        processes and stretched in-house teams.
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="footer-newsletter-input p-2 d-flex justify-content-between rounded-2">
+                                        <input class="footer-input-css w-100 border-0 p-2 py-2" type="text"
+                                            placeholder="What's Your Email Address">
+                                        <button class="text-center footer-newsletter-btn-css px-3 rounded-1">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                    <div class="mt-2">
+                                        <p class="ms-4 footer-checkbox-paragraph">
+                                            <input class="form-check-input p-2" type="checkbox" value=""
+                                                id="flexCheckChecked" checked>I also want to subscribe to
+                                            <a href="" class="footer-news-letter-link fw-bold"> Superside's
+                                                newsletter</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border my-5">
+
+                </div>
+                <div>
+                    <h6 class="footer-h5-title mb-3">
+                        Superside is a revolutionary way for businesses to get good design done at scale.
+                    </h6>
+                    <p class="footer-h5-para">
+                        Trusted by 450+ ambitious companies, Superside makes design hassle-free for marketing and
+                        creative teams. By combining the top 1% of creative talent from around the world with
+                        purpose-built technology and the rigor of design ops, Superside helps ambitious brands grow
+                        faster. Since inception, Superside has been a fully remote company, with more than 700 team
+                        members working across 57 countries and 13 timezones.
+                    </p>
+                </div>
+                <div>
+                    <div class="d-flex flex-column flex-xl-row justify-content-between py-4 my-4">
+                        <p>© 2023 Company, Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex mt-4 mt-xl-0">
+                            <li class="ms-3"><a class="footer-icon-color" href="#"><i
+                                        class="fa-brands fa-xl fa-linkedin-in"></i></a></li>
+                            <li class="ms-3"><a class="footer-icon-color" href="#"><i
+                                        class="fa-brands fa-xl fa-facebook"></i></a></li>
+                            <li class="ms-3"><a class="footer-icon-color" href="#"><i
+                                        class="fa-brands fa-xl fa-twitter"></i></a></li>
+                            <li class="ms-3"><a class="footer-icon-color" href="#"><i
+                                        class="fa-brands fa-xl fa-instagram"></i></a></li>
+                            <li class="ms-3"><a class="footer-icon-color" href="#"><i
+                                        class="fa-brands fa-xl fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Footer -->
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scroll_nav.js"></script>
+    <script src="scripts/279c9c1a29.js"></script>
+    <script src="Practice-9.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').click(function () {
+                var logoImage = $('.navbar-logo-css img');
+                if ($(this).attr('aria-expanded') === 'true') {
+                    $('.navbar').css('background-color', '#fafafa');
+                    $('.navbar-logo-css').css('color', '#0f2133');
+                    $('.toggler-icon-css').css('color', '#0f2133');
+                    logoImage.attr('src', 'Images/Logo-SuperSide.svg');
+                } else {
+                    $('.navbar').css('background-color', 'transparent');
+                    $('.navbar-logo-css').css('color', '#ffffff');
+                    $('.toggler-icon-css').css('color', '#fafafa');
+                    logoImage.attr('src', 'Images/SuperSide-Logo-White.png');
+                }
+            });
+        });
+    </script>
+</body>
+
+
+</html>
